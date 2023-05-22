@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM debian:bullseye-slim
 RUN apt-get update
 RUN apt-get install curl -y
 RUN apt-get install openjdk-11-jre -y

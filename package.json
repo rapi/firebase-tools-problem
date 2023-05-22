@@ -3,7 +3,7 @@
   "license": "copyright",
   "type": "module",
   "devDependencies": {
-    "firebase-tools": "^12.1.0"
+    "firebase-tools": "^12.0.1"
   },
   "scripts": {
     "migration:migrate": "fireway --path tools/migrations migrate"
