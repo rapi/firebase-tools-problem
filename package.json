@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "license": "copyright",
+  "type": "module",
+  "devDependencies": {
+    "firebase-tools": "^12.1.0"
+  },
+  "scripts": {
+    "migration:migrate": "fireway --path tools/migrations migrate"
+  },
+  "resolutions": {
+    "**/**/vm2": "^3.9.16"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
